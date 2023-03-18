@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+    text-align: center;
+    margin: auto;
+}
+
+#paint{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: auto;
+}
+
+header{
+    background: url(imagenrickymorty.png);
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    text-align: right;
+    font-size: 90px;
+    color: #000000;
+    margin-top: 40px;
+}
+h3{
+    color: #1ffd1f;
+}
+
+.buttonOne {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #a300ffa3;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #eeee;
+    margin: 15px;
+  }
+  
+  .buttonOne:hover {background-color: #1ffd1f;}
+  
+  .buttonOne:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .containerPaint{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .containerCard {
+    padding: 2px 16px;
+  }
